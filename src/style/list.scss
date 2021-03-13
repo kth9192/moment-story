@@ -1,0 +1,20 @@
+.memo {
+  display: inline-block;
+  text-align: center;
+}
+
+.memo__li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  list-style-type: none;
+  padding: 0.2rem 0.5rem;
+  background-color: white;
+  border: 1px solid skyblue;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.li__checkbox {
+}
