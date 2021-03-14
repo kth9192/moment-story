@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import '../style/list.scss';
+import '../../style/list.scss';
 
 export interface ListItemProps {
+  task: string;
   handleCheck?: (event: React.MouseEvent<HTMLLIElement, MouseEvent>) => void;
 }
 

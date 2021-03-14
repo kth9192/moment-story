@@ -2,7 +2,7 @@ import React, { ComponentProps } from 'react';
 
 import { Story } from '@storybook/react';
 
-import { Button } from './Button';
+import { Button } from '../components/button/Button';
 
 //👇 This default export determines where your story goes in the story list
 export default {

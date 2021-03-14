@@ -3,7 +3,7 @@ import React from 'react';
 import { Story, Meta } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import { ListItemProps, MemoListItem } from './listItem';
+import { ListItemProps, MemoListItem, MemoList } from '../components/list';
 
 export default {
   title: 'Example/List',
@@ -16,3 +16,7 @@ const Template: Story<ListItemProps> = (args) => (
 );
 export const ListItem = Template.bind({});
 ListItem.args = {};
+
+const Template2: Story = (args) => <MemoList {...args} />;
+export const Lists = Template2.bind({});
+Lists.args = {};

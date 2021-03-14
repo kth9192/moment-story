@@ -1,8 +1,9 @@
 import React from 'react';
 
-import { Header } from './Header';
-import { MemoListItem } from './listItem';
-import './page.css';
+import { Header } from '../Header';
+import { MemoListItem } from '../list/listItem';
+import '../../stories/page.css';
+import { MemoList } from 'components/list';
 
 export interface PageProps {
   user?: {};
@@ -25,12 +26,12 @@ export const Page: React.FC<PageProps> = ({
       onCreateAccount={onCreateAccount}
     />
 
-    <MemoListItem />
+    <MemoList />
 
     <section>
       <h2>Pages in Storybook</h2>
       <p>
-        We recommend building UIs with a{' '}
+        We recommend building UIs with a
         <a
           href="https://componentdriven.org"
           target="_blank"

@@ -6,5 +6,6 @@ module.exports = {
     '@storybook/preset-create-react-app',
     '@storybook/addon-viewport/register',
     '@storybook/addon-knobs/registe',
+    'storybook-addon-designs',
   ],
 };

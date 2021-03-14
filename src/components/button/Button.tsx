@@ -1,6 +1,6 @@
 import React from 'react';
-import './button.css';
-import '../style/button.scss';
+import '../../stories/button.css';
+import '../../style/button.scss';
 
 export interface ButtonProps {
   /**
